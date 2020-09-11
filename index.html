@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Theme Changer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar theme btn-primary">
+        <div class="navbar-brand">
+            Theme Changer
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row mt-2 ">
+            <div class="col-md-4 align-self-center offset-md-3">
+                <h1>Theme Changer</h1>
+                <div class="current_theme mt-3" style="font-family: 'Merriweather', serif;">Current Color Theme is :<mark><span id="current_color"> #FFFFFF</span>  </mark>
+                </div>
+                <div class="card">
+                    <input type="color" class="form-control mt-3" id="color">
+                    <button class="btn btn-danger btn-lg mt-3 theme" id="button"> Change Color</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="container" id="product">
+        <div class="row ">
+            <div class="col-md-4 mt-5">
+                <div>
+                    <img src="https://images.priceoye.pk/lenovo-z6-pro-pakistan-priceoye-ucmym.jpg">
+                    <h3>Lenovo Z6 Pro</h3>
+                </div>
+            </div>
+            <div class="col-md-4 mt-5">
+                <div>
+                    <img src="https://gearvita.com/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/x/i/xiaomi_redmi_note_7_pro.jpg" alt="">
+                    <h3>Redmi Note 7 Pro</h3>
+                </div>
+            </div>
+            <div class="col-md-4 mt-5">
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSAxMsXggK6akonP8RZSsoryE7OgBkZ83dpZg&usqp=CAU">
+                    <h3>Apple iPhone11</h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
